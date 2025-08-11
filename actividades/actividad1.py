@@ -1,8 +1,9 @@
 inventario = [
     {"producto": "camisa", "precio": 25900, "stock": "11"},
     {"producto": "pantalón", "precio": 39900, "stock": "23"},
-    {"producto": "abrigo", "precio": 50000, "stock": "2"},
 ]
+
+inventario.append({"producto": "abrigo", "precio": 50000, "stock": "2"}),
 
 inventario[0]["stock"] = int(inventario[0]["stock"]);
 inventario[1]["stock"] = int(inventario[1]["stock"]);
